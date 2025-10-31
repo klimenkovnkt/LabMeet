@@ -10,7 +10,7 @@ const { Scheduler } = util;
 const { abs, sin, cos, PI: pi, sqrt } = Math;
 const { round } = util;
 let currentLoop;
-
+let frameDur;
 // store info about the experiment session:
 let expName = 'exp';  // from the Builder filename that created this script
 let expInfo = {
