@@ -9,7 +9,7 @@ const { Scheduler } = util;
 //some handy aliases as in the psychopy scripts;
 const { abs, sin, cos, PI: pi, sqrt } = Math;
 const { round } = util;
-
+let currentLoop;
 
 // store info about the experiment session:
 let expName = 'exp';  // from the Builder filename that created this script
