@@ -511,7 +511,7 @@ function byeRoutineBegin(snapshot) {
     psychoJS._saveResults = 0;
     
     // Именуем файлы
-    let filename = psychoJS.experiment._participant '_' + psychoJS._experiment._experimentName + '_' + psychoJS._experiment._datetime + '.csv';
+    let filename = psychoJS._experiment._experimentName + '_' + psychoJS._experiment._datetime + '.csv';
     // Достаем дата обджект из эксперимента
     let dataObj = psychoJS._experiment._trialsData;
     // Конвертируем в csv
