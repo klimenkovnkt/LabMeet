@@ -509,7 +509,6 @@ function byeRoutineBegin(snapshot) {
     // update component parameters for each repeat
     // Отключаем скачивание через браузер
     psychoJS._saveResults = 0;
-    
     // Именуем файлы
     let filename = psychoJS._experiment._experimentName + '_' + psychoJS._experiment._datetime + '.csv';
     // Достаем дата обджект из эксперимента
